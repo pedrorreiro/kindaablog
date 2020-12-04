@@ -1,0 +1,131 @@
+html{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+    overflow-x: hidden;
+    background-color: #030142;
+
+}
+
+input{
+    text-align: center;
+}
+
+content{
+    color:white;
+    background-color: #030142;
+}
+
+header{ /* Cabeçalho */
+    padding: 0.7em;
+    background-color: #fe5200;
+}
+
+#contentHeader{ /* Conteúdo do cabeçalho */
+
+    padding: 0 2em;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+
+}
+
+#corpo{
+    padding: 40px;
+    text-align: center;
+    background-color: #030142;
+}
+
+#conta{
+    color: black;
+    background: white;
+    text-align: center;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 7px;
+    width: 50%;
+}
+
+#postarArea{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+    display: inline-block;
+}
+
+#postsArea{
+    width: 70%;
+}
+
+#charArea{
+    width: 50%;
+    display: inline-block;
+}
+
+.imgsLogo{ /* Imagens da logo */
+    margin-right: 2%;
+    display: flex;
+}
+
+#logo1{
+    vertical-align: middle;
+}
+
+#btnForgot{
+    margin-right: 25px;
+    
+}
+
+#logo1:first-child{
+    margin-right: 1.25em;
+}
+
+nav>ul>li{
+    padding-right: 35px;
+    display: inline-block;
+}
+
+nav>ul>li:last-child{
+    margin-right: 0;
+}
+
+@media (max-width: 1080px){
+    #conta{
+        width: 90%;
+    }
+
+    #postArea{  
+        width: 90%;
+    }
+
+    #postarArea{
+        width: 80%;
+    }
+
+    #charArea{
+        width: 80%;
+    }
+
+}
+
+@media (max-width: 375px){
+    #conta{
+        width: 100%;
+    }
+}
+
+@media (max-width: 490px){
+    #btnForgot{
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    #postarArea{
+        width: 90%;
+    }
+
+    #postsArea{
+        width: 90%;
+    }
+
+}

@@ -1,0 +1,41 @@
+.App-header{
+    background: white;
+    border-radius: 7px;
+    display: block;
+    color: black;
+    min-height: 0px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.post{
+    background: white;
+    text-align: center;
+    color: black;
+    border-radius: 7px;
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+}
+
+#campoBusca{
+    margin-bottom: 15px;
+
+}
+
+#tituloPost{
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#contPost{
+
+    font-size: 15px;
+}
+
+ul{
+    list-style-type: none;
+}
